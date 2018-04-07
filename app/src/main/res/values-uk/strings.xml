@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShinyCodingBusinessCard</string>
+    <string name="company_description">Розробка простих Android додатків (для прикладу таких як цей). Розробка простих програм під Windows на мові програмування Java.</string>
+    <string name="how_to_contact">/*На зв\'язок можете виходити за допомогою:*/</string>
+    <string name="operating_hours">/*Найкращі години для зв\'язку це від 7:30 до 15:30*/</string>
+    <string name="phone">Телефон (+48 880 871 889)</string>
+    <string name="today_is">"Сьогодні "</string>
+</resources>

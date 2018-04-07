@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShinyCodingBusinessCard</string>
+    <string name="company_description">Tworzenie prostych aplikacji dla Androida (naprzykład takich
+jak ta). Tworzenie prostych programów dla Windowsa napisanych w języku programowania Java.</string>
+    <string name="how_to_contact">/*Ze mną można się skontaktować przez:*/</string>
+    <string name="phone">Telefon {+48 880 871 889}</string>
+    <string name="email" translatable="false">Email {andrew.bibik@gmail.com}</string>
+    <string name="operating_hours">/*Najlepiej ze mna się kontaktować w godzinach od 7:30 do 15:30*/</string>
+    <string name="today_is">"Dzisiaj jest  "</string>
+    Dzisiaj jest
+</resources>

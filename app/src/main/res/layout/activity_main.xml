@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="com.example.android.shinycodingbusinesscard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_small">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/sun" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:fontFamily="monospace"
+                android:text="Shiny"
+                android:textColor="@color/logo_first_color"
+                android:textSize="@dimen/logo_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="monospace"
+                android:text="Coding"
+                android:textColor="@color/logo_second_color"
+                android:textSize="@dimen/logo_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="monospace"
+                android:text=" {"
+                android:textColor="@color/logo_third_color"
+                android:textSize="@dimen/logo_text_size" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="208dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/main_image" />
+
+            <TextView
+                android:id="@+id/company_description"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="112dp"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:background="#A6FFFFFF"
+                android:fontFamily="monospace"
+                android:padding="@dimen/margin_medium"
+                android:text="@string/company_description"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/description_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/company_description"
+                android:layout_marginLeft="76dp"
+                android:background="#A6FFFFFF"
+                android:text=" }"
+                android:textColor="@color/logo_third_color"
+                android:textSize="@dimen/logo_text_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_small"
+            android:fontFamily="monospace"
+            android:paddingTop="@dimen/margin_small"
+            android:text="@string/how_to_contact"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="@dimen/information_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:padding="@dimen/margin_small"
+            android:text="@string/phone"
+            android:textColor="@color/main_text_color"
+            android:textSize="@dimen/information_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_small"
+            android:fontFamily="monospace"
+            android:text="@string/email"
+            android:textColor="@color/main_text_color"
+            android:textSize="@dimen/information_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_small"
+            android:fontFamily="monospace"
+            android:text="@string/operating_hours"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="@dimen/information_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="#757575" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e2e2e2"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_medium">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/today_is"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/information_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/current_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/main_text_color"
+                android:textSize="@dimen/information_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

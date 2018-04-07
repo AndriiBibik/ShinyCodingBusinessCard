@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShinyCodingBusinessCard</string>
+    <string name="how_to_contact">/*You can contact with me by:*/</string>
+    <string name="phone">Phone {+48 880 871 889}</string>
+    <string name="today_is">"Today is "</string>
+    <string name="operating_hours">Best time for contact is from 7:30 to 15:30 (time by Warsaw)</string>
+    <string name="company_description">Creation of simple Android applications (like this one). Creation of simple Windows applications in Java programming language.</string>
+</resources>

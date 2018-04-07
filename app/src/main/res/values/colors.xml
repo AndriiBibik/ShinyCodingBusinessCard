@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="logo_first_color">#859900</color>
+    <color name="logo_second_color">#6c71c4</color>
+    <color name="logo_third_color">#cb4b16</color>
+    <color name="main_text_color">#212121</color>
+    <color name="secondary_text_color">#969696</color>
+
+</resources>
